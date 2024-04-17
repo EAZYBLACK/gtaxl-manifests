@@ -20,7 +20,7 @@ cd alpha-13
 
 - Initialize repo in this directory with AlphaDroid's android.git repository:
 ```
-repo init -u https://github.com/alphadroid-project/manifest -b alpha-14 --git-lfs --depth=1
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs --depth=1
 ```
 
 - Clone this repository to .repo/local_manifests for the manifest, gtaxl.xml, containing the repositories needed to build for these devices:
