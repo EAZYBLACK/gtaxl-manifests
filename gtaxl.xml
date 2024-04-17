@@ -4,22 +4,19 @@
   <!-- Contain patches necessary for working around the old kernel not having (anywhere near the required level of) eBPF support - REQUIRED, otherwise no boot -->
   <remove-project name="platform/frameworks/libs/net" />
   <project name="K9100ii/android_frameworks_libs_net" path="frameworks/libs/net" remote="github" revision="lineage-20.0-nobpf" />
-  <remove-project name="LineageOS/android_packages_modules_Connectivity" />
-  <project name="K9100ii/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="github" revision="lineage-20.0-nobpf" />
+  <remove-project name="crdroidandroid/android_packages_modules_Connectivity" />
+  <project name="EAZYBLACK/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="github" revision="13.0" />
   <remove-project name="platform/system/bpf" />
   <project name="K9100ii/android_system_bpf" path="system/bpf" remote="github" revision="lineage-20.0-nobpf" />
-  <remove-project name="LineageOS/android_system_core" />
-  <project name="K9100ii/android_system_core" path="system/core" remote="github" revision="lineage-20.0-nobpf" />
-  <remove-project name="LineageOS/android_system_netd" />
-  <project name="K9100ii/android_system_netd" path="system/netd" remote="github" revision="lineage-20.0-nobpf" />
+  <remove-project name="AlphaDroid-Project/system_core" />
+  <project name="EAZYBLACK/android_system_core" path="system/core" remote="github" revision="alpha-13" />
+  <remove-project name="crdroidandroid/android_system_netd" />
+  <project name="EAZYBLACK/android_system_netd" path="system/netd" remote="github" revision="13.0" />
 
   <!-- Contains a patch for a possible slight improvement in screen recording quality - Optional if not desired -->
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="K9100ii/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-20.0" />
-
-  <!-- Contains a patch for improving graphical performance - Optional -->
-  <remove-project name="LineageOS/android_frameworks_native" />
-  <project name="K9100ii/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-20.0" />
+  <remove-project name="AlphaDroid-Project/frameworks_base" />
+  <project name="EAZYBLACK/frameworks_base" path="frameworks/base" remote="github" revision="alpha-13" />
+  
   <!-- END OF FORKS -->
 
   <!-- Device trees -->
