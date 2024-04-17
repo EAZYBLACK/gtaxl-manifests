@@ -8,7 +8,7 @@
   <project name="EAZYBLACK/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="github" revision="13.0" />
   <remove-project name="platform/system/bpf" />
   <project name="K9100ii/android_system_bpf" path="system/bpf" remote="github" revision="lineage-20.0-nobpf" />
-  <remove-project name="AlphaDroid-Project/system_core" />
+  <remove-project name="system_core" />
   <project name="EAZYBLACK/android_system_core" path="system/core" remote="github" revision="alpha-13" />
   <remove-project name="crdroidandroid/android_system_netd" />
   <project name="EAZYBLACK/android_system_netd" path="system/netd" remote="github" revision="13.0" />
