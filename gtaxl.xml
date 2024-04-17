@@ -14,7 +14,7 @@
   <project name="EAZYBLACK/android_system_netd" path="system/netd" remote="github" revision="13.0" />
 
   <!-- Contains a patch for a possible slight improvement in screen recording quality - Optional if not desired -->
-  <remove-project name="AlphaDroid-Project/frameworks_base" />
+  <remove-project name="frameworks_base" />
   <project name="EAZYBLACK/frameworks_base" path="frameworks/base" remote="github" revision="alpha-13" />
   
   <!-- END OF FORKS -->
