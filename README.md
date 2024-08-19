@@ -1,4 +1,4 @@
-# Manifest for building AlphaDroid 13 for gtaxlwifi, gtaxllte, gtanotexlwifi, and gtanotexllte
+# Manifest for building CrDroid 13 for gtaxlwifi, gtaxllte, gtanotexlwifi, and gtanotexllte
 
 `gtaxlwifi` is the codename for the WiFi-only variant of the Samsung Galaxy Tab A 10.1" (2016), with model SM-T580.
 
@@ -12,20 +12,21 @@ Some extremely basic instructions:
 
 These assume you have a good Linux build environment prepared with all prerequisite dependencies installed. If not, you should be able to find out how to prepare a build environment, and what dependencies you should have installed for your specific Linux distribution, by searching elsewhere.
 
-- Make a new directory for AlphaDroid 13 sources and enter it:
+- Make a new directory for CrDroid 13 sources and enter it:
 ```
-mkdir alpha-13
-cd alpha-13
+mkdir cr-13
+cd cr-13
 ```
 
-- Initialize repo in this directory with AlphaDroid's android.git repository:
+- Initialize repo in this directory with CrDroid's android.git repository:
 ```
-repo init -u https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs --depth=1
+repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs --depth=1
+
 ```
 
 - Clone this repository to .repo/local_manifests for the manifest, gtaxl.xml, containing the repositories needed to build for these devices:
 ```
-git clone https://github.com/EAZYBLACK/gtaxl-manifests.git -b alphadroid13 .repo/local_manifests
+git clone https://github.com/EAZYBLACK/gtaxl-manifests.git -b crdroid13 .repo/local_manifests
 ```
 
 - Sync all of the repositories in manifests (including LineageOS manifests):
